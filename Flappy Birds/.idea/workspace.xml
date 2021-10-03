@@ -2,19 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59bce60a-0f83-4863-b075-837b438793f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Factorizer Refactored/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Factorizer Refactored/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Factorizer Refactored/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Factorizer Refactored/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Factorizer Refactored/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Factorizer Refactored/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Factorizer Refactored/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Factorizer Refactored/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Factorizer Refactored/out/production/untitled104/com/company/factorizer/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Factorizer Refactored/out/production/untitled104/com/company/factorizer/FactorizerRefactored.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Factorizer Refactored/src/com/company/factorizer/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Factorizer Refactored/src/com/company/factorizer/FactorizerRefactored.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Factorizer Refactored/untitled104.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/.idea/libraries/Maven__junit_junit_4_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/.idea/libraries/Maven__org_springframework_spring_aop_4_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/.idea/libraries/Maven__org_springframework_spring_beans_4_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/.idea/libraries/Maven__org_springframework_spring_context_4_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/.idea/libraries/Maven__org_springframework_spring_core_4_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/.idea/libraries/Maven__org_springframework_spring_expression_4_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/VendingMachine.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/audit.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/inventory.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/main/java/com/sg/vendingmachine/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/main/java/com/sg/vendingmachine/controller/VendingMachineController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/main/java/com/sg/vendingmachine/dao/Change.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/main/java/com/sg/vendingmachine/dao/VendingMachineAuditDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/main/java/com/sg/vendingmachine/dao/VendingMachineAuditDaoFileImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/main/java/com/sg/vendingmachine/dao/VendingMachineDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/main/java/com/sg/vendingmachine/dao/VendingMachineDaoFileImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/main/java/com/sg/vendingmachine/dao/VendingMachinePersistenceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/main/java/com/sg/vendingmachine/dto/Coins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/main/java/com/sg/vendingmachine/dto/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/main/java/com/sg/vendingmachine/service/InsufficientFundsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/main/java/com/sg/vendingmachine/service/ItemDataValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/main/java/com/sg/vendingmachine/service/NoSuchItemExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/main/java/com/sg/vendingmachine/service/VendingMachineServiceLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/main/java/com/sg/vendingmachine/service/VendingMachineServiceLayerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/main/java/com/sg/vendingmachine/ui/UserIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/main/java/com/sg/vendingmachine/ui/UserIOConsoleImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/main/java/com/sg/vendingmachine/ui/VendingMachineView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/target/classes/com/sg/vendingmachine/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/target/classes/com/sg/vendingmachine/controller/VendingMachineController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/target/classes/com/sg/vendingmachine/dao/Change.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/target/classes/com/sg/vendingmachine/dao/VendingMachineAuditDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/target/classes/com/sg/vendingmachine/dao/VendingMachineAuditDaoFileImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/target/classes/com/sg/vendingmachine/dao/VendingMachineDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/target/classes/com/sg/vendingmachine/dao/VendingMachineDaoFileImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/target/classes/com/sg/vendingmachine/dao/VendingMachinePersistenceException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/target/classes/com/sg/vendingmachine/dto/Coins.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/target/classes/com/sg/vendingmachine/dto/Item.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/target/classes/com/sg/vendingmachine/service/InsufficientFundsException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/target/classes/com/sg/vendingmachine/service/ItemDataValidationException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/target/classes/com/sg/vendingmachine/service/NoSuchItemExistsException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/target/classes/com/sg/vendingmachine/service/VendingMachineServiceLayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/target/classes/com/sg/vendingmachine/service/VendingMachineServiceLayerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/target/classes/com/sg/vendingmachine/ui/UserIO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/target/classes/com/sg/vendingmachine/ui/UserIOConsoleImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/target/classes/com/sg/vendingmachine/ui/VendingMachineView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/target/classes/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
