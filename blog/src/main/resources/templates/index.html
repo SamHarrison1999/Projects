@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/blog.css">
+
+</head>
+<style>
+  body {
+        background-color: blue;
+    }
+    
+    h1 {
+        text-align: center;
+        color: white;
+		padding-bottom: 5px;
+    }
+
+</style>
+
+<body>
+    <h1>Blog</h1>
+    <nav id="mainNavbar " class="navbar bg-dark navbar-expand-sm" aria-label="Toggle navigation">
+        <a href="/" class="navbar-brand">Home</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLink">
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+        <div class="collapse navbar-collapse" id="navLink">
+            <ul class="navbar-nav ml-auto">
+                <li sec:authorize="hasRole('ROLE_ADMIN')" class="nav-item">
+                    <a href="/admin" class="nav-link">Admin</a>
+                </li>
+                <li sec:authorize="isAuthenticated()" class="nav-item">
+                    <a href="/post" class="nav-link">Create Post</a>
+                </li>
+                <li sec:authorize="!isAuthenticated()" class="nav-item">
+                    <a href="/login" class="nav-link">Login</a>
+                </li>
+                <li sec:authorize="isAuthenticated()" class="nav-item">
+                    <form class="form-inline" method="POST" action="/logout">
+                        <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}" />
+                        <label for="submit" style="color:white">
+                            Hello,&nbsp;<span th:text="${#authentication.name}"></span>
+                        </label>
+                        <button class="btn btn-link" id="submit" type="submit">Logout</button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="https:www.w3schools.com">
+                    <img src="Image/Background1.jpg" width="30" height="400" class="d-block w-100" alt="...">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="http://www.stu.systems/post/13">
+                    <img src="Image/Background2.jpg" width="30" height="400" class="d-inline-block w-100" alt="...">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="https:www.yahoo.com">
+                    <img src="Image/Background3.jpg" width="30" height="400" class="d-block w-100" alt="...">
+                </a>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <div th:each="post : ${posts}" class="card">
+        <nav id="mainNavbar " class="navbar bg-dark navbar-expand-sm" aria-label="Toggle navigation">
+            <a th:href="'post/' + ${post.id}" class="navbar-brand" th:text="${post.title}">Post Title</a>
+            <div class="collapse navbar-collapse" id="navLink">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a th:href="@{/edit(id=${post.id})}" class="nav-link">Edit</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="card-body">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item" th:utext="${post.body}">
+            </ul>
+        </div>
+        <div class="card" id="input-group input-group-sm mb-4">
+            <span>Posted By <span th:text="${post.user.name}"></span></span>
+            <div class="d-flex flex-column flex-md-row justify-content-between">
+                <ul class="list-inline">
+                    <li class="list-inline-item" th:each="tag : ${post.tags}">
+                        <a th:href="@{/tags(tag=${tag.name})}" th:text="${tag.name}"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</html>
