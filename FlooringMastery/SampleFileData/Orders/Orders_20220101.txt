@@ -1,0 +1,4 @@
+OrderNumber::CustomerName::State::TaxRate::ProductType::Area::CostPerSquareFoot::LaborCostPerSquareFoot::MaterialCost::LaborCost::Tax::Total::OrderDate
+4::Test::CA::25.00::Tile::249::3.50::4.15::871.50::1033.35::476.21::2381.06
+5::Test2::CA::25.00::Tile::249::3.50::4.15::871.50::1033.35::476.21::2381.06
+7::Test::CA::25.00::Carpet::200::2.25::2.10::450.00::420.00::217.50::1087.50
