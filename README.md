@@ -26,6 +26,7 @@
 - [Pong](https://github.com/SamH1999-eng/Projects/tree/main/Pong)
 - [Snake](https://github.com/SamH1999-eng/Projects/tree/main/Snake)
 - [Calculator](https://github.com/SamH1999-eng/Projects/tree/main/Calculator)
+- [Text Editor](https://github.com/SamH1999-eng/Projects/tree/main/Text%20Editor)
 
 ## C# Projects
 - [3D Platformer Game](https://github.com/SamH1999-eng/Projects/tree/main/3D%20Platformer/Assignement%201)
