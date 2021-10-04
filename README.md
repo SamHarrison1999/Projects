@@ -25,6 +25,7 @@
 - [OpenCV](https://github.com/SamH1999-eng/Projects/tree/main/OpenCV)
 - [Pong](https://github.com/SamH1999-eng/Projects/tree/main/Pong)
 - [Snake](https://github.com/SamH1999-eng/Projects/tree/main/Snake)
+- [Calculator](https://github.com/SamH1999-eng/Projects/tree/main/Calculator)
 
 ## C# Projects
 - [3D Platformer Game](https://github.com/SamH1999-eng/Projects/tree/main/3D%20Platformer/Assignement%201)
