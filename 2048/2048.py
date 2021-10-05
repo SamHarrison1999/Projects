@@ -10,8 +10,8 @@ class Game(tk.Frame):
         self.master.title('2048')
 
         self.main_grid = tk.Frame(
-            self, bg=c.GRID_COLOR, bd=3, width=400, height=400)
-        self.main_grid.grid(pady=(80, 0))
+            self, bg=c.GRID_COLOR, bd=3, width=600, height=600)
+        self.main_grid.grid(pady=(100, 0))
         self.make_GUI()
         self.start_game()
 
@@ -42,7 +42,7 @@ class Game(tk.Frame):
 
         # make score header
         score_frame = tk.Frame(self)
-        score_frame.place(relx=0.5, y=40, anchor="center")
+        score_frame.place(relx=0.5, y=45, anchor="center")
         tk.Label(
             score_frame,
             text="Score",
