@@ -2,8 +2,10 @@
 
 ## Java Projects
 - [Address Book](https://github.com/SamH1999-eng/Projects/tree/main/Address%20Book)
+- [Bank](https://github.com/SamH1999-eng/Projects/tree/main/Bank)
 - [Belisha Beacon](https://github.com/SamH1999-eng/Projects/tree/main/BelishaBeacon)
 - [Birthday Calculator](https://github.com/SamH1999-eng/Projects/tree/721be5c4ca365c8690117d97b750035026ea0bff/Birthday%20Calculator)
+- [Blog](https://github.com/SamH1999-eng/Projects/tree/main/blog)
 - [Book Tracker](https://github.com/SamH1999-eng/Projects/tree/721be5c4ca365c8690117d97b750035026ea0bff/BookTracker)
 - [Chess](https://github.com/SamH1999-eng/Projects/tree/721be5c4ca365c8690117d97b750035026ea0bff/Chess)
 - [Class Roster](https://github.com/SamH1999-eng/Projects/tree/721be5c4ca365c8690117d97b750035026ea0bff/ClassRoster)
@@ -17,7 +19,6 @@
 - [Lucky Sevens](https://github.com/SamH1999-eng/Projects/tree/main/Lucky%20Sevens)
 - [Minesweeper](https://github.com/SamH1999-eng/Projects/tree/721be5c4ca365c8690117d97b750035026ea0bff/Minesweeper)
 - [Rock Paper Scissors](https://github.com/SamH1999-eng/Projects/tree/main/Rock%20Paper%20Scissors)
-- [CMS](https://github.com/SamH1999-eng/Projects/tree/main/blog)
 
 
 ## Python Projects
