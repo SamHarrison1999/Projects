@@ -29,6 +29,7 @@
 - [Pac-Man](https://github.com/SamH1999-eng/Projects/tree/main/Pacman)
 - [Pong](https://github.com/SamH1999-eng/Projects/tree/main/Pong)
 - [Snake](https://github.com/SamH1999-eng/Projects/tree/main/Snake)
+- [Space Invaders](https://github.com/SamH1999-eng/Projects/tree/main/Space%20Invaders)
 - [Text Editor](https://github.com/SamH1999-eng/Projects/tree/main/Text%20Editor)
 - [Tic Tac Toe](https://github.com/SamH1999-eng/Projects/tree/main/Tic%20Tac%20Toe)
 
