@@ -22,14 +22,15 @@
 
 
 ## Python Projects
+- [2048](https://github.com/SamH1999-eng/Projects/tree/main/2048)
+- [Calculator](https://github.com/SamH1999-eng/Projects/tree/main/Calculator)
 - [Elastic Search](https://github.com/SamH1999-eng/Projects/tree/721be5c4ca365c8690117d97b750035026ea0bff/Elastic%20Search)
 - [OpenCV](https://github.com/SamH1999-eng/Projects/tree/main/OpenCV)
+- [Pac-Man](https://github.com/SamH1999-eng/Projects/tree/main/Pacman)
 - [Pong](https://github.com/SamH1999-eng/Projects/tree/main/Pong)
 - [Snake](https://github.com/SamH1999-eng/Projects/tree/main/Snake)
-- [Calculator](https://github.com/SamH1999-eng/Projects/tree/main/Calculator)
 - [Text Editor](https://github.com/SamH1999-eng/Projects/tree/main/Text%20Editor)
 - [Tic Tac Toe](https://github.com/SamH1999-eng/Projects/tree/main/Tic%20Tac%20Toe)
-- [2048](https://github.com/SamH1999-eng/Projects/tree/main/2048)
 
 ## C# Projects
 - [3D Platformer Game](https://github.com/SamH1999-eng/Projects/tree/main/3D%20Platformer/Assignement%201)
