@@ -14,7 +14,7 @@ public class GameArea extends JPanel {
 
     
     public GameArea(JPanel placeholder, int columns){
-        placeholder.setVisible(false);
+        //placeholder.setVisible(false);
         this.setBounds(placeholder.getBounds());
         this.setBackground(placeholder.getBackground());
         this.setBorder(placeholder.getBorder());
@@ -29,9 +29,16 @@ public class GameArea extends JPanel {
         this.block.spawn(this.gridColumns);
     }
 
+    public boolean isBlockOutOfBounds(){
+        if (block.getY() < 0) {
+            block = null;
+            return true;
+        }
+        return false;
+    }
+
     public boolean moveBlockDown() {
         if (!this.checkBottom()) {
-            moveBlockToBackground();
             return false;
         }
         this.block.moveDown();
@@ -40,18 +47,21 @@ public class GameArea extends JPanel {
     }
 
     public void moveBlockLeft(){
+        if (block == null) return;
         if (!checkLeft()) return;
         block.moveLeft();
         repaint();
     }
 
     public void moveBlockRight(){
+        if (block == null) return;
         if (!checkRight()) return;
         block.moveRight();
         repaint();
     }
 
     public void dropBlock(){
+        if (block == null) return;
         while (checkBottom()) {
             block.moveDown();
         }
@@ -59,6 +69,7 @@ public class GameArea extends JPanel {
     }
 
     public void rotateBlock(){
+        if (block == null) return;
         block.rotate();
         repaint();
     }
@@ -120,7 +131,44 @@ public class GameArea extends JPanel {
         return true;
     }
 
-    private void moveBlockToBackground(){
+    public int clearLines(){
+        boolean lineFilled;
+        int linesCleared = 0;
+        for (int row = gridRows - 1; row >= 0; row--) {
+            lineFilled = true;
+            for (int col = 0; col < gridColumns; col++) {
+                if (background[row][col] == null) {
+                    lineFilled = false;
+                    break;
+                }
+            }
+            if (lineFilled) {
+                linesCleared++;
+                clearLine(row);
+                shiftDown(row);
+                clearLine(0);
+                row++;
+                repaint();
+            }
+        }
+        return linesCleared;
+    }
+
+    private void clearLine(int row){
+        for (int i = 0; i < gridColumns; i++) {
+            background[row][i] = null;
+        }
+    }
+
+    private void shiftDown(int r) {
+        for (int row = r; row > 0; row--) {
+            for (int col = 0; col < gridColumns; col++) {
+                background[row][col] = background[row - 1][col];
+            }
+        }
+    }
+
+    public void moveBlockToBackground(){
         int[][] shape = block.getShape();
         int height = block.getHeight();
         int width = block.getWidth();
